@@ -1,0 +1,21 @@
+{
+    "name": "takamichi/clock",
+    "description": "PSR-20 Clock Interface (draft) implements.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Takamichi Urata",
+            "homepage": "https://takamichi.dev"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "stella-maris/clock": "^0.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tk\\Clock\\": "src/"
+        }
+    }
+}
